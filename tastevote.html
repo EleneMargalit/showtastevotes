@@ -1,0 +1,71 @@
+<html>
+<head>
+   <title>TasteVote</title>
+   <meta charset = "UTF-8">
+   <script src = "js/myloc.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link rel = "stylesheet" href = "css/normalize.css">
+   <link rel = "stylesheet" href = "css/mainpage.css">
+</head>
+<body id = "body">
+
+  <header class = "mainheader">
+    <div class = "mainh1_container">
+      <h1>TasteVote</h1>   
+    </div>
+
+    <!--<ul class =  "firstul">
+      <li class = "contact"><a href = "">LOG IN</a></li>
+    </ul>
+    <img class = "xazi" src = "img/headerxazi.png">
+    <ul class = "secondul">
+      <li class = "fb"><a href = ""><img src = "img/fbmenuicon.png"></a></li>
+      <li class = "inst"><a href = ""><img src = "img/gmailmenuicon.png"></a></li>
+      <li class = "twitter"><a href = ""><img src = "img/twittermenuicon.png"></a></li>
+
+     
+
+    </ul>-->
+  </header>
+
+  <section class = "mainsection">
+    <div class = "sectionh1_container">
+      <h1>What do you wish for?</h1>
+    </div> 
+       
+       <nav class = "mainnav">
+
+         <select class = "firstselect" name = "food_or_drink">
+           <option value="food" selected>Food</option>
+           <option value="drink">Drink</option>
+           <option value="combined">Combined</option>
+         </select>
+
+         <select name = "distance">
+           <option value="auto" selected>Distance(auto 100m)</option>
+           <option value="500">500m</option>
+           <option value="1km">1km</option>
+           <option value="2km">2km</option>
+         </select>
+
+         <select name = "location">
+           <option id = "my_location" value="auto">Location</option>
+         </select>
+
+         <input type = "text" placeholder = "Dish or Drink">
+
+       </nav>
+
+       <div class = "main_button">
+           <a href = "maps.html" class = "button_text">Go!</a>
+       </div>
+
+  </section>
+  <footer class = "mainfooter">
+
+  </footer>
+
+
+
+</body>
+</html>
